@@ -55,4 +55,8 @@ Git的使用:
             就存在了冲突。
             我们先要将远程仓库的文件拉下来，添加到本地 
             在去推送就可以了。
-            
+        6. 添加远程仓库和分支
+            git remote add GitStudy  https://github.com/chanhuiwumeng/GitStudy.git
+        7. 将项目推送到远程仓库的主分支上
+            git push -u GitStudy master
+
