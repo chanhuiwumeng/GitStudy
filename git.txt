@@ -39,4 +39,20 @@ Git的使用:
         1. git   init   初始化
             生成本地仓库
         2. 添加需要上传到仓库的文件
+            git  add  git.txt
+            git  add .   当前文件夹中所有的文件和文件夹
+
+        3. git status  查看git的状态
+
+        4.  进行提交
+         git  commit -m "first commit"
+         在git 中每次提交必须添加注释 
+        添加到暂存区
+        查看状态
+        5. 创建远程仓库 复制仓库的地址
+            git pull https://github.com/chanhuiwumeng/GitStudy.git
+            无论是在码云还是github上 因为我们创建仓库以后会自动生成README.md 文档 我们的本地仓库和远程仓库
+            就存在了冲突。
+            我们先要将远程仓库的文件拉下来，添加到本地 
+            在去推送就可以了。
             
